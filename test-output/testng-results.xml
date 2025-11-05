@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-04T21:34:17 IST" name="Suite" finished-at="2025-11-04T21:35:57 IST" duration-ms="100059">
+    <groups>
+      <group name="sanity">
+        <method signature="maternity_testcase.verifyMaternityModule()[pri:1, instance:testcases.maternity_testcase@114a85c2]" name="verifyMaternityModule" class="testcases.maternity_testcase"/>
+        <method signature="maternity_testcase.verifyMaternitySubModule()[pri:2, instance:testcases.maternity_testcase@114a85c2]" name="verifyMaternitySubModule" class="testcases.maternity_testcase"/>
+        <method signature="maternity_testcase.verifyNavigationBetweenMaternitySubModules()[pri:3, instance:testcases.maternity_testcase@114a85c2]" name="verifyNavigationBetweenMaternitySubModules" class="testcases.maternity_testcase"/>
+        <method signature="maternity_testcase.verifyMaternityComponentsAreVisible()[pri:4, instance:testcases.maternity_testcase@114a85c2]" name="verifyMaternityComponentsAreVisible" class="testcases.maternity_testcase"/>
+        <method signature="maternity_testcase.editPatientInformationAndVerify()[pri:5, instance:testcases.maternity_testcase@114a85c2]" name="editPatientInformationAndVerify" class="testcases.maternity_testcase"/>
+        <method signature="maternity_testcase.verifyToSearchDataApplyDateFilter()[pri:6, instance:testcases.maternity_testcase@114a85c2]" name="verifyToSearchDataApplyDateFilter" class="testcases.maternity_testcase"/>
+        <method signature="maternity_testcase.verifyDateRangeUsingDateRangeButton()[pri:7, instance:testcases.maternity_testcase@114a85c2]" name="verifyDateRangeUsingDateRangeButton" class="testcases.maternity_testcase"/>
+        <method signature="maternity_testcase.verifyViewAllMaternityPatientCheckBoxFunctionality()[pri:8, instance:testcases.maternity_testcase@114a85c2]" name="verifyViewAllMaternityPatientCheckBoxFunctionality" class="testcases.maternity_testcase"/>
+        <method signature="maternity_testcase.searchAndVerifyKeywordInEveryResult()[pri:9, instance:testcases.maternity_testcase@114a85c2]" name="searchAndVerifyKeywordInEveryResult" class="testcases.maternity_testcase"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-11-04T21:34:17 IST" name="Test" finished-at="2025-11-04T21:35:57 IST" duration-ms="100059">
+      <class name="testcases.maternity_testcase">
+        <test-method is-config="true" signature="initBrowser(java.lang.String,java.lang.String)[pri:0, instance:testcases.maternity_testcase@114a85c2]" started-at="2025-11-04T21:34:17 IST" name="initBrowser" finished-at="2025-11-04T21:34:24 IST" duration-ms="7773" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="verifyMaternityModule()[pri:1, instance:testcases.maternity_testcase@114a85c2]" started-at="2025-11-04T21:34:24 IST" name="verifyMaternityModule" description="1. Login in the healthapp application
+2. Scroll down menu till Maternity 
+3. Click on the Maternity4. Maternity module should be present " finished-at="2025-11-04T21:34:43 IST" duration-ms="18969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMaternityModule -->
+        <test-method signature="verifyMaternitySubModule()[pri:2, instance:testcases.maternity_testcase@114a85c2]" started-at="2025-11-04T21:34:46 IST" name="verifyMaternitySubModule" description="Pre condition: User should be logged in and it is on Maternity module
+1. Click on the Maternity  Module drop-down arrow" finished-at="2025-11-04T21:34:48 IST" duration-ms="2373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMaternitySubModule -->
+        <test-method signature="verifyNavigationBetweenMaternitySubModules()[pri:3, instance:testcases.maternity_testcase@114a85c2]" started-at="2025-11-04T21:34:48 IST" name="verifyNavigationBetweenMaternitySubModules" description="Pre condition: User should be logged in and it is on Maternity module 
+1. Naviagte to the &quot;Maternity List&quot; sub-module
+2. Click on the &quot;Payments&quot; sub-module 
+3. Click on the &quot;Reports&quot; sub-module 
+4. Naviaget back to the &quot;Maternity&quot; sub-module5. Ensure that it should  navigate to each sub-module which are present in the &quot;Maternity&quot; module" finished-at="2025-11-04T21:34:50 IST" duration-ms="1466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationBetweenMaternitySubModules -->
+        <test-method signature="verifyMaternityComponentsAreVisible()[pri:4, instance:testcases.maternity_testcase@114a85c2]" started-at="2025-11-04T21:34:50 IST" name="verifyMaternityComponentsAreVisible" description="Pre condition: User should be logged in and it is on Maternity module
+1. Navigate to &quot;Maternity list&quot; sub-module" finished-at="2025-11-04T21:34:54 IST" duration-ms="4500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMaternityComponentsAreVisible -->
+        <test-method signature="editPatientInformationAndVerify()[pri:5, instance:testcases.maternity_testcase@114a85c2]" started-at="2025-11-04T21:34:55 IST" name="editPatientInformationAndVerify" description="Pre condition: User should be logged in and it is on Maternity module
+1. Navigate to &quot;Maternity list&quot; sub-module
+2. Enter the Existing patient name in the &quot;Edit Information of&quot; field 
+3. Select the patient name by the dropdown
+4. Enter the neccessay field in the &quot;New Patient Registration&quot; page
+(Husband&#039;s Name, Patient Height(in cm), Patient Weight(in kg), 1st dayOf Last Menstruation ,Expected Date of Delivery)
+5. Click on &quot;Register&quot; button" finished-at="2025-11-04T21:35:00 IST" duration-ms="5562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editPatientInformationAndVerify -->
+        <test-method signature="verifyToSearchDataApplyDateFilter()[pri:6, instance:testcases.maternity_testcase@114a85c2]" started-at="2025-11-04T21:35:01 IST" name="verifyToSearchDataApplyDateFilter" description="Pre condition: User should be logged in and it is on Maternity module
+1. Click on the &quot;From&quot; date
+2. Select the &quot;Jan 2020&quot; date 
+3. Click on the &quot;To&quot; date
+4. Select &quot;July 2024&quot; date
+5. Click on &quot;OK&quot; button" finished-at="2025-11-04T21:35:18 IST" duration-ms="17648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToSearchDataApplyDateFilter -->
+        <test-method signature="verifyDateRangeUsingDateRangeButton()[pri:7, instance:testcases.maternity_testcase@114a85c2]" started-at="2025-11-04T21:35:19 IST" name="verifyDateRangeUsingDateRangeButton" description="Pre condition: User should be logged in and it is on Maternity module
+1. Navigate to &quot;Maternity list&quot; sub-module
+2. Click on the data range button
+3. select &quot;one week&quot; option from the drop down
+4. Click on &quot;OK&quot; button" finished-at="2025-11-04T21:35:33 IST" duration-ms="13858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDateRangeUsingDateRangeButton -->
+        <test-method signature="verifyViewAllMaternityPatientCheckBoxFunctionality()[pri:8, instance:testcases.maternity_testcase@114a85c2]" started-at="2025-11-04T21:35:34 IST" name="verifyViewAllMaternityPatientCheckBoxFunctionality" description="Pre condition: User should be logged in and  it is on Maternity module
+1. Navigate to &quot;Maternity list&quot; sub-module 
+2. Clcik on the &quot;View All Maternity Patients&quot; checkbox" finished-at="2025-11-04T21:35:40 IST" duration-ms="6025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyViewAllMaternityPatientCheckBoxFunctionality -->
+        <test-method signature="searchAndVerifyKeywordInEveryResult()[pri:9, instance:testcases.maternity_testcase@114a85c2]" started-at="2025-11-04T21:35:40 IST" name="searchAndVerifyKeywordInEveryResult" description="Pre condition: User should be logged in and  it is on Maternity module
+1. Navigate to &quot;Maternity list&quot; sub-module 
+2. Enter the keywords" finished-at="2025-11-04T21:35:56 IST" duration-ms="15064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndVerifyKeywordInEveryResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.maternity_testcase@114a85c2]" started-at="2025-11-04T21:35:56 IST" name="tearDown" finished-at="2025-11-04T21:35:57 IST" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.maternity_testcase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
